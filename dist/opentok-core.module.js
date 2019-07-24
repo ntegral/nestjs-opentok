@@ -38,6 +38,7 @@ let OpenTokCoreModule = OpenTokCoreModule_1 = class OpenTokCoreModule {
             exports: [provider],
             imports: options.imports,
             module: OpenTokCoreModule_1,
+            providers: [...this.createAsyncProviders(options), provider]
         };
     }
     static createAsyncProviders(options) {

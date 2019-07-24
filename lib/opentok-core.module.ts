@@ -33,7 +33,8 @@ export class OpenTokCoreModule {
             exports: [provider],
             imports: options.imports,
             module: OpenTokCoreModule,
-        }
+            providers: [...this.createAsyncProviders(options), provider]
+        };
     }
 
     private static createAsyncProviders(
