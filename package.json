@@ -7,7 +7,7 @@
     }
   ],
   "name": "@ntegral/nestjs-opentok",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Provides an injectable opentok client to nestjs modules",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/ntegral/nestjs-opentok#readme",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
-    "clean": "rm -rf lib",
+    "clean": "rm -rf dist",
     "format": "prettier --write \"lib/**/*.ts\"",
     "publish:npm": "npm publish --access public"
   },
