@@ -11,6 +11,14 @@
   "description": "Provides an injectable opentok client to nestjs modules",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntegral/nestjs-opentok.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ntegral/nestjs-opentok/issues"
+  },
+  "homepage": "https://github.com/ntegral/nestjs-opentok#readme",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "clean": "rm -rf lib",
